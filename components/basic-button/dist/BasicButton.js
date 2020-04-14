@@ -27,7 +27,7 @@ const BasicButton = (_a) => {
         width: "250px",
         fontSize: "18px",
         border: "0",
-        borderRadius: "10px",
+        borderRadius: "12px",
         boxShadow: "0 2px 5px 1px rgba(0,0,0,0.2)",
         cursor: "pointer",
     };
