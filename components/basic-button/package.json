@@ -1,0 +1,75 @@
+{
+  "name": "@bit/easytecs.corporate.basic-button",
+  "version": "1.0.4",
+  "homepage": "https://bit.dev/easytecs/corporate/basic-button",
+  "main": "dist/BasicButton.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "peerDependencies": {
+    "react": "^16.11.0",
+    "@types/react": "16.9.11"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": {
+        "bit.envs/compilers/typescript@3.1.45": {
+          "rawConfig": {
+            "compilerPath": "typescript/bin/tsc",
+            "compilerArguments": [
+              "--declaration"
+            ],
+            "compiledFileTypes": [
+              ".ts",
+              ".tsx"
+            ],
+            "configFileName": "tsconfig.json",
+            "tsconfig": {
+              "compilerOptions": {
+                "outDir": "dist",
+                "target": "ES2015",
+                "sourceMap": false,
+                "moduleResolution": "Node",
+                "esModuleInterop": true,
+                "module": "ES6",
+                "allowSyntheticDefaultImports": true,
+                "resolveJsonModule": true,
+                "declaration": true,
+                "experimentalDecorators": true,
+                "inlineSourceMap": false,
+                "inlineSources": false,
+                "jsx": "react",
+                "rootDir": "./",
+                "removeComments": true,
+                "typeRoots": [
+                  "./node_modules/@types"
+                ],
+                "importHelpers": false
+              },
+              "include": [
+                "./**/*"
+              ],
+              "exclude": [
+                "node_modules",
+                ".dependencies",
+                "dist"
+              ]
+            },
+            "development": false,
+            "copyPolicy": {
+              "ignorePatterns": [
+                "package.json",
+                "package-lock.json",
+                "tsconfig.json"
+              ],
+              "disable": false
+            }
+          },
+          "options": {},
+          "files": {}
+        }
+      },
+      "tester": "bit.envs/testers/jest@22.4.3"
+    }
+  }
+}
