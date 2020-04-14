@@ -945,10 +945,10 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@bit/easytecs.corporate.basic-button@^1.0.1":
-  version "1.0.1"
-  resolved "https://node.bit.dev/easytecs.corporate.basic-button/-/easytecs.corporate.basic-button-1.0.1.tgz#cb0857d0277d8dc83347a241b210cda752a53f3c"
-  integrity sha1-ywhX0Cd9jcgzR6JBshDNp1KlPzw=
+"@bit/easytecs.corporate.basic-button@^1.0.2":
+  version "1.0.2"
+  resolved "https://node.bit.dev/easytecs.corporate.basic-button/-/easytecs.corporate.basic-button-1.0.2.tgz#9376aa703464936eaf4feb562ff2a043bd5df1e4"
+  integrity sha1-k3aqcDRkk26vT+tWL/KgQ71d8eQ=
 
 "@cnakazawa/watch@^1.0.3":
   version "1.0.4"
