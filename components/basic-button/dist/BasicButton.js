@@ -14,7 +14,8 @@ import * as React from 'react';
 const typeStyle = {
     danger: "#A91011",
     alert: "#F27713",
-    info: "#083D77"
+    info: "#083D77",
+    warn: "#083D77",
 };
 const BasicButton = (_a) => {
     var { typeButton, onClick, children } = _a, props = __rest(_a, ["typeButton", "onClick", "children"]);
@@ -24,8 +25,8 @@ const BasicButton = (_a) => {
         backgroundColor: typeStyle[type],
         padding: "16px",
         fontFamily: "Arial",
-        width: "350px",
-        fontSize: "18px",
+        width: "400px",
+        fontSize: "20px",
         border: "0",
         borderRadius: "12px",
         boxShadow: "0 2px 5px 1px rgba(0,0,0,0.2)",
