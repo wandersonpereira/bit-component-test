@@ -1,6 +1,6 @@
 {
   "name": "@bit/easytecs.corporate.basic-button",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "homepage": "https://bit.dev/easytecs/corporate/basic-button",
   "main": "dist/BasicButton.js",
   "dependencies": {},

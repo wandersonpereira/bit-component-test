@@ -21,7 +21,7 @@ const BasicButton: React.FC<IButtonProps> = ({ typeButton, onClick, children, ..
         backgroundColor: typeStyle[type],
         padding: "16px",
         fontFamily: "Arial",
-        width: "250px",
+        width: "350px",
         fontSize: "18px",
         border: "0",
         borderRadius: "12px",
